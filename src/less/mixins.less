@@ -1,0 +1,29 @@
+.transition(@prop, @time, @easing) {
+	-webkit-transition: @prop @time @easing;
+	-moz-transition: @prop @time @easing;
+	-ms-transition: @prop @time @easing;
+	-o-transition: @prop @time @easing;
+	transition: @prop @time @easing;
+}
+
+.transition-transform(@time, @easing) {
+	-webkit-transition: -webkit-transform @time @easing;
+	-moz-transition: -moz-transform @time @easing;
+	-ms-transition: -ms-transform @time @easing;
+	-o-transition: -o-transform @time @easing;
+	transition: transform @time @easing;
+}
+
+.rounded(@value) {
+	-webkit-border-radius: @value;
+	-moz-border-radius: @value;
+	border-radius: @value;
+}
+
+.transform(@prop) {
+	-webkit-transform: @prop;
+	-moz-transform: @prop;
+	-ms-transform: @prop;
+	-o-transform: @prop;
+	transform: @prop;
+}
